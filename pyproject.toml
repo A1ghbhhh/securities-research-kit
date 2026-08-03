@@ -1,0 +1,16 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "securities-research-kit"
+version = "0.1.0"
+description = "Traditional securities research toolkit: financial ratios, industry frameworks, valuation (DCF / comparables), and advisor report generation."
+readme = "README.md"
+requires-python = ">=3.9"
+license = { text = "MIT" }
+authors = [{ name = "Chunyang Gao" }]
+keywords = ["securities", "research", "valuation", "financial-analysis", "advisor", "trading"]
+
+[tool.setuptools.packages.find]
+include = ["researchkit*"]
