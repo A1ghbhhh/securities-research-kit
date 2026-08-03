@@ -1,0 +1,13 @@
+[
+  "tests/test_advisor.py::test_evening_review",
+  "tests/test_advisor.py::test_morning_note",
+  "tests/test_financials.py::test_financial_ratios_basic",
+  "tests/test_financials.py::test_revenue_cagr",
+  "tests/test_industry.py::test_outline_keys",
+  "tests/test_industry.py::test_pest",
+  "tests/test_industry.py::test_porter",
+  "tests/test_valuation.py::test_dcf_invalid_rate",
+  "tests/test_valuation.py::test_dcf_positive",
+  "tests/test_valuation.py::test_relative_valuation_mean",
+  "tests/test_valuation.py::test_relative_valuation_median"
+]
