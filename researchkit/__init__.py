@@ -8,6 +8,7 @@ from .advisor import evening_review, morning_note
 from .financials import FinancialStatements, financial_ratios, net_income_cagr, revenue_cagr
 from .industry import pest, porter_five_forces, research_outline
 from .valuation import dcf, relative_valuation
+from .dupont import dupont, dupont_from_financials
 
 __all__ = [
     "FinancialStatements",
@@ -19,6 +20,8 @@ __all__ = [
     "porter_five_forces",
     "dcf",
     "relative_valuation",
+    "dupont",
+    "dupont_from_financials",
     "morning_note",
     "evening_review",
 ]
